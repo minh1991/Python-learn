@@ -44,9 +44,9 @@ print(comp.real)
 # print(strB)
 
 
-strA    =   "helloBoyMaster"
-strB    =   strA[None:None:2]
-print(strB)
+
+
+
 # strC    =   strB in strA
 
 
@@ -54,4 +54,22 @@ str1    = int("66")
 str2    = str1 + 10
 str3    = 60
 str4    = str(str3) + "10"
-print(str4,type(str3), type(str4))
+# print(str4,type(str3), type(str4))
+
+
+strA    =   'My name is %s %s  ' %('Lee', 'NUM')
+print(strA)
+
+strC    = 'một số bất kỳ là : %.2f '  %(15.888)
+print(strC)
+
+strD    =   'hiển thị: %r'  %('tôi')
+print(strD)
+
+strE    =   'abcXYZ'
+strA    =   f'vấn đề là  {strE}'
+print(strA)
+
+strF    =   'a:{tmp1} b:{tmp2} c:{tmp3}'
+strR    =   strF.format(tmp1="what", tmp2=5,tmp3="men")
+print(strR)
